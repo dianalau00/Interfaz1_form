@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de información personal</h1>
+
+        <form action="#">
+            <div class="input-fields">
+
+                <div class="input-group">
+                    <label for="lastName">Apellido:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="input-group">
+                    <label for="firstName">Nombre:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+            </div>
+
+            <div class="input-fields">
+                <div class="input-group">
+                    <label for="dateOfBirth">Fecha de nacimiento:</label>
+                    <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="cityOfBirth">Ciudad de nacimiento:</label>
+                    <input type="text" id="cityOfBirth" name="cityOfBirth" required>
+                </div>
+            </div>
+
+            <div class="input-fields">
+                <div class="input-group">
+                    <label for="countryOfBirth">Pais de nacimiento:</label>
+                    <select id="countryOfBirth" name="countryOfBirth" required>
+                        <option value="">Seleccione el pais</option>
+                        <option value="AF">México</option>
+                        <option value="AL">U.S.A</option>
+                        <option value="DZ">Canada</option>
+                        </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="nationality">Nacionalidad:</label>
+                    <input type="text" id="nationality" name="nationality" required>
+                   
+                </div>
+            </div>
+
+            <div class="input-fields">
+          
+
+                <div class="input-group">
+                    <label for="passportNumber">Numero de pasaporte:</label>
+                    <input type="text" id="passportNumber" name="passportNumber" required>
+                </div>
+            </div>
+
+            <div class="input-fields">
+                <div class="input-group">
+                    <label for="passportIssueDate">Fecha de emisión del pasaporte</label>
+                    <input type="date" id="passportIssueDate" name="passportIssueDate" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="passportExpirationDate">Fecha de expiración del pasaporte:</label>
+                    <input type="date" id="passportExpirationDate" name="passportExpirationDate" required>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
